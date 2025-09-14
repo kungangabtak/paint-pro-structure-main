@@ -182,12 +182,9 @@ export default function Portfolio() {
           <p className="text-xl mb-8 text-primary-foreground/90">
             Join the growing list of satisfied Illinois homeowners who chose TTM Painting for their exterior transformation.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button size="lg" variant="accent" asChild>
               <Link to="/get-estimate">Get Your Free Estimate</Link>
-            </Button>
-            <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-              <Link to="/get-estimate">Get Your Quote</Link>
             </Button>
           </div>
         </div>
