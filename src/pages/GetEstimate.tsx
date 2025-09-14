@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Clock, Shield, Phone, Mail, MapPin } from "lucide-react";
+import JobberForm from "@/components/JobberForm";
 
 const benefits = [
   {
@@ -50,11 +51,7 @@ export default function GetEstimate() {
               </CardHeader>
               <CardContent>
                 {/* Jobber Form Embed */}
-                <div id="3f2be4ce-f6a2-414c-95b4-8211aaed3546"></div>
-                <link rel="stylesheet" href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" media="screen" />
-                <div dangerouslySetInnerHTML={{
-                  __html: `<script src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js" clienthub_id="3f2be4ce-f6a2-414c-95b4-8211aaed3546" form_url="https://clienthub.getjobber.com/client_hubs/3f2be4ce-f6a2-414c-95b4-8211aaed3546/public/work_request/embedded_work_request_form"></script>`
-                }} />
+                <JobberForm />
               </CardContent>
             </Card>
 

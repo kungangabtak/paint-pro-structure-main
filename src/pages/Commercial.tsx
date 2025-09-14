@@ -81,12 +81,9 @@ export default function Commercial() {
               Reliable commercial painting services for businesses throughout Illinois. 
               From retail spaces to office buildings, we deliver quality results with minimal disruption to your operations.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex justify-center">
               <Button size="lg" variant="accent" asChild>
                 <Link to="/get-estimate">Get Commercial Quote</Link>
-              </Button>
-              <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-                <Link to="/get-estimate">Get Your Quote</Link>
               </Button>
             </div>
           </div>
@@ -238,12 +235,9 @@ export default function Commercial() {
           <p className="text-xl mb-8 text-primary-foreground/90">
             Professional commercial painting that enhances your business image without disrupting operations.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button size="lg" variant="accent" asChild>
               <Link to="/get-estimate">Request Commercial Quote</Link>
-            </Button>
-            <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-              <Link to="/get-estimate">Contact Us Today</Link>
             </Button>
           </div>
         </div>

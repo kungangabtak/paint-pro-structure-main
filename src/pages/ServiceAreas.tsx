@@ -80,12 +80,9 @@ export default function ServiceAreas() {
               Based in Sterling, we provide professional painting services across a large region of Illinois, 
               from Rock Island to the Chicago suburbs and from Galena down to Champaign.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex justify-center">
               <Button size="lg" variant="accent" asChild>
                 <Link to="/get-estimate">Get Free Estimate</Link>
-              </Button>
-              <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-                <Link to="/get-estimate">Get Your Quote</Link>
               </Button>
             </div>
           </div>
@@ -227,12 +224,9 @@ export default function ServiceAreas() {
             <p className="text-lg text-muted-foreground mb-8">
               We're always expanding our service area for quality projects. If you're in Illinois and need professional painting services, give us a call - we may be able to help!
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex justify-center">
               <Button variant="accent" size="lg" asChild>
                 <Link to="/get-estimate">Ask About Your Area</Link>
-              </Button>
-              <Button variant="outline" size="lg" asChild>
-                <Link to="/get-estimate">Submit Estimate Request</Link>
               </Button>
             </div>
           </div>
@@ -248,12 +242,9 @@ export default function ServiceAreas() {
           <p className="text-xl mb-8 text-primary-foreground/90">
             Professional painting services available throughout our extensive Illinois service area.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button size="lg" variant="accent" asChild>
               <Link to="/get-estimate">Get Free Local Estimate</Link>
-            </Button>
-            <Button size="lg" variant="ghost" asChild className="text-white hover:bg-white/10">
-              <Link to="/get-estimate">Get Your Quote</Link>
             </Button>
           </div>
         </div>
